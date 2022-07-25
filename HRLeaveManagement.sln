@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4807D723-47C0-458D-B59E-7EFA455FBB65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{61AAE45E-9D66-4523-BBDF-CEAF65744971}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9F1FE87F-983E-4BFA-9156-DC7CA8DABAA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{849BB209-5442-4CBF-A852-03F490B9436F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D8F9591C-BE10-4888-A678-D41C508D1473}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{2B7A3BA1-E501-48CB-B123-A13B96D18BAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain", "HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{C08D547B-01CD-45F1-9975-E5F640EDE9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Application", "HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{0C18C26B-9BAD-424B-B807-E74AD64FD120}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C08D547B-01CD-45F1-9975-E5F640EDE9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08D547B-01CD-45F1-9975-E5F640EDE9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08D547B-01CD-45F1-9975-E5F640EDE9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08D547B-01CD-45F1-9975-E5F640EDE9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C18C26B-9BAD-424B-B807-E74AD64FD120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C18C26B-9BAD-424B-B807-E74AD64FD120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C18C26B-9BAD-424B-B807-E74AD64FD120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C18C26B-9BAD-424B-B807-E74AD64FD120}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61AAE45E-9D66-4523-BBDF-CEAF65744971} = {4807D723-47C0-458D-B59E-7EFA455FBB65}
+		{9F1FE87F-983E-4BFA-9156-DC7CA8DABAA7} = {4807D723-47C0-458D-B59E-7EFA455FBB65}
+		{849BB209-5442-4CBF-A852-03F490B9436F} = {4807D723-47C0-458D-B59E-7EFA455FBB65}
+		{2B7A3BA1-E501-48CB-B123-A13B96D18BAA} = {4807D723-47C0-458D-B59E-7EFA455FBB65}
+		{C08D547B-01CD-45F1-9975-E5F640EDE9B4} = {9F1FE87F-983E-4BFA-9156-DC7CA8DABAA7}
+		{0C18C26B-9BAD-424B-B807-E74AD64FD120} = {9F1FE87F-983E-4BFA-9156-DC7CA8DABAA7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F686A0B-9275-4C7C-A1EB-3C24DFF38AAD}
+	EndGlobalSection
+EndGlobal
